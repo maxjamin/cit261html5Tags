@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<script  src="main.js"></script>
+</head>
+<body>
+<style>
+	body {
+		background-color: lightblue;
+	}	
+	h1 {
+ 		color: black;
+  		text-align: center;
+	}
+	#grad1 {
+		background-color: white; 
+  		background-image: linear-gradient(to bottom right, lightblue, white);
+	}
+</style>
+
+	<h1>HTML5 Tags</h1><br>
+	<hr>
+
+	<h2>Unmanned balloon flight</h2>
+	<div>
+	<button onclick="changeSize()">Change Size</button>
+	<button onclick="muteVideo()">Mute</button><br><br>
+	<video id="one" width="640" controls>
+  		<source src="ballonToSpace.mp4" type="video/mp4">
+	</video>
+	</div>
+	<hr>
+
+	<h2>Rain sounds</h2>
+	<audio controls>
+	  <source src="rainSound.mp3" type="audio/mpeg">
+	</audio><br>
+
+	<hr>
+	<canvas id="canvas" width="700" height="400"></canvas><br>
+	<button onclick="createCanvas()">Create Canvas</button><br><br>
+
+
+
+
+</body>
+</html>
